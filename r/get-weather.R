@@ -1,3 +1,8 @@
+# Note: You have to install the darksky package, 
+#       and sign-up at https://darksky.net/dev to get an API-KEY
+#       then add the key to your .Renviron by running 
+#       Sys.setenv(DARKSKY_API_KEY = "API-KEY") in your console
+
 library(darksky)
 library(tidyverse)
 
