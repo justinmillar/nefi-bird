@@ -1,5 +1,5 @@
 # Read in data
-bird <- read.csv("/Users/vahsen/Downloads/nefi-bird-master/data/HuronA.csv")
+bird <- read.csv("data/HuronA.csv")
 cov <- read.csv("/Users/vahsen/Downloads/nefi-bird-master/data/output/covariates.csv")
 
 cov_sub <- subset(cov, date_j %in% bird$Night_Number & Site == "HuronA")
